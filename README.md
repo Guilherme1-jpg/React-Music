@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Sobre
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+o React-deezer trata-se de uma aplicação WEB, a qual utiliza e consume [API da Deezer](https://developers.deezer.com/)
 
-## Available Scripts
+# Estrutura inicial do projeto
 
-In the project directory, you can run:
+Em primeira view é apresentada algumas informações sobre o artista de pesquisa, a exemplo o nome, curtidas entre outras informações.
+A seguir podemos ver uma aba denominada Musica, a qual é apresentada os artistas do momento e suas respectivas infomrações alem do reprodutor musica para uma preview de suas musicas.
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-### `npm test`
+- ReactJs<br>
+- react-dom
+- react-icons
+- react-redux
+- react-router-dom
+- LocalStorage
+- material-ui
+- axios
+- redux
+- styled-components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Ferramentas auxiliares de design
 
-### `npm run build`
+[Coolor.co](https://coolors.co/)
+[TpeScale] (https://type-scale.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# **Pré-requisitos**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ter instalado em sua maquina o nodeJs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. # Como executar:
+   clone o repositorio
+2. # Após clonar...
+   entre na pasta raiz do projeto e execute um npm install ou yarn install, logo em seguida para ver o projeto rodando digite npm start
 
-### `npm run eject`
+# Lidando com Cors
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Acrescente (https://cors-anywhere.herokuapp.com/) a frente da url localizada helpers/api.js assim ficando (https://cors-anywhere.herokuapp.com/https://api.deezer.com/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Alternativo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Acrescente a extensão <strong>Moesif Origin & CORS Changer</strong> em seu navegador e ative-a para desabilitar possiveis problemas de cors
