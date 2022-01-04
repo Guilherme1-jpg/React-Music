@@ -2,21 +2,18 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  display: flex;
+  align-items: center;
   justify-content: center;
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
 `;
 
 export const SearchArea = styled.div`
-  width: 100%;
   display: flex;
+  width: 100%;
   justify-content: center;
-
-  input {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    height: 25px;
-    border-radius: 20px;
-  }
+  margin-top: 50px;
 `;

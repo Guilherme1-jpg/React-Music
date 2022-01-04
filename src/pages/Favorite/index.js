@@ -1,5 +1,5 @@
-import React from "react";
+import React from 'react'
 
 export const Favorite = () => {
-  return <h1>asddasdasd</h1>;
-};
+    return <h1>pagina de favoritos</h1>
+}

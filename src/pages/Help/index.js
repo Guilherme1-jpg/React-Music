@@ -1,5 +1,5 @@
-import React from "react";
+import React from 'react'
 
 export const Help = () => {
-  return <h1>asddasdasd</h1>;
-};
+    return <h1>Pagina de ajuda ao usuario</h1>
+}
