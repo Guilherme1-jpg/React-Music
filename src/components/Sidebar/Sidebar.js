@@ -6,7 +6,7 @@ import { IconContext } from "react-icons";
 import * as VscIcons from "react-icons/vsc";
 import * as AiIcons from "react-icons/ai";
 
-import deezerLogo from "../../assets/deezer-logo.png";
+import iconLogo from "../../assets/iconlogo.png";
 
 import "./SideCustom.css";
 
@@ -19,11 +19,11 @@ function Sidebar() {
     <>
       <IconContext.Provider value={{ color: "#000" }}>
         <div className="sideNav">
-          <Link Link to="#" className="menu-bars">
+          <Link to="#" className="menu-bars">
             <VscIcons.VscThreeBars onClick={showSide} />
           </Link>
           <div className="initialLogo">
-            <img src={deezerLogo} />
+            <img src={iconLogo} />
           </div>
         </div>
 
@@ -45,9 +45,6 @@ function Sidebar() {
                 </li>
               );
             })}
-            <div className="logo">
-              <img src={deezerLogo} />
-            </div>
           </ul>
         </nav>
       </IconContext.Provider>
